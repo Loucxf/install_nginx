@@ -26,3 +26,4 @@ fi
 server_ip=$(hostname -I | awk '{print $1}')
 
 echo "Adresse IP du serveur Nginx : $server_ip"
+echo "Pour modifier vos pages, rendez-vous dans le dossier /var/www/html"
